@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Anton Keks",
+  "jobTitle": "Developer @ Codeborne",
+  "image": "https://static.wixstatic.com/media/1cc5be_f03b8507fdad47b6b0403d92d309466e~mv2.jpg",
+  "knowsAbout": "Anton Keks is a software craftsman, co-founder of Codeborne, the only extreme programming shop in the region, a frequent speaker at conferences, and a lecturer in Tallinn Technical University. He is also a strong believer in open-source software and agile development methodologies, author of a popular network tool — Angry IP Scanner, and a regular contributor to other open-source projects. Before founding Codeborne, Anton has led a team of developers of the award-winning internet-bank of Swedbank for 5 years, gradually introducing agile methods. During this time he has also co-founded Agile Estonia non-profit organization that organizes regular agile conferences in Estonia. During spare time he plays guitar, rides a motorbike, and travels to remote corners of the world.",
+  "url": "https://www.javaday.org.ua/anton-keks",
+  "sameAs" : [ "https://www.linkedin.com/in/antonkeks/", "https://www.facebook.com/anton.keks", "https://twitter.com/antonkeks" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

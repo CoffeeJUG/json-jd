@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "",
+  "image": "",
+  "url": "https://www.javaday.org.ua/type-inference-friend-or-foe",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "",
+      "jobTitle": "",
+      "name": "",
+      "url": ""
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

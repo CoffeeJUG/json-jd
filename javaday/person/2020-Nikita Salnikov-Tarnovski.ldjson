@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nikita Salnikov-Tarnovski",
+  "jobTitle": "Co-founder, CTO @ Plumbr",
+  "image": "https://static.wixstatic.com/media/1cc5be_53dd2f77aba84148a0ce88418ead1bf9~mv2.png",
+  "knowsAbout": "Co-founder of Plumbr, the only performance monitor solution with root cause detection, where he now contributes as a core developer and lead of engineering team. Besides his daily technical tasks, he is an active blogger, 3 times JavaOne RockStar, and frequent conference speaker. Troubleshooter, assumptions destroyer, finds the most joy when deletes deprecated code.",
+  "url": "https://www.javaday.org.ua/nikita-salnikov-tarnovski",
+  "sameAs" : [ "https://www.linkedin.com/in/nikem/", "https://twitter.com/inikem" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

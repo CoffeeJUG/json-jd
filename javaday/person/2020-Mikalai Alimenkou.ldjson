@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mikalai Alimenkou",
+  "jobTitle": "Independent Consultant @ XP Injection",
+  "image": "https://static.wixstatic.com/media/1cc5be_e542664c40be4f11a8eee58ad61c44d3~mv2.jpg",
+  "knowsAbout": "Senior Delivery Manager, Java Tech Lead, and experienced coach. Expert in Java development, scalable architecture, Agile engineering practices, and project management. Having almost 15 years of development experience specializes in complex distributed scalable systems. Active participant and speaker of many international conferences. Founder and independent consultant at training center XP Injection. Organizer and founder of Selenium Camp, JEEConf, and XP Days Ukraine conferences.",
+  "url": "https://www.javaday.org.ua/mikalai-alimenkou",
+  "sameAs" : [ "https://www.linkedin.com/in/alimenkoumikalai/", "https://www.facebook.com/mikalai.alimenkou", "https://twitter.com/xpinjection" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

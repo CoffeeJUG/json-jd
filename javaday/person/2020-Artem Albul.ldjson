@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Artem Albul",
+  "jobTitle": "Keynote Speaker (Клятий Раціоналіст)",
+  "image": "https://static.wixstatic.com/media/1cc5be_e761b35a22d7472e9b71fba6f811318c~mv2.jpg",
+  "knowsAbout": "Artem Albul is a science populariser, author of the non-fiction resource “Клятий Раціоналіст. (The Goddamn Rationalist). One of the most popular sci-pop Ukrainian YouTuber. He is advocating a scientific worldview and critical thinking. Artem is promoting evidence-based medicine, fighting against pseudoscience. He stands for healthy skepticism as main theme of his talks.",
+  "url": "https://www.javaday.org.ua/artem-albul",
+  "sameAs" : [ "https://www.facebook.com/artemalbool", "https://twitter.com/ArtemAlbul" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

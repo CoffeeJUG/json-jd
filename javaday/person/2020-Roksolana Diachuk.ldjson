@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Roksolana Diachuk",
+  "jobTitle": "Big Data Developer @ Captify",
+  "image": "https://static.wixstatic.com/media/1cc5be_41efdd94e8e54ad8b7b73376636291b4~mv2.jpg",
+  "knowsAbout": "Big Data Engineer at Captify who is passionate about Big Data, Scala, and Kubernetes and always loves to learn something new. I am one of the Women Who Code Kyiv leads so I enjoy organizing events as well as speaking at such events. My hobbies include building technical topics around fairytales and discovering new cities by traveling.",
+  "url": "https://www.javaday.org.ua/roksolana-diachuk",
+  "sameAs" : [ "https://www.linkedin.com/in/roksolanadiachuk/", "https://twitter.com/dead_flowers22" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

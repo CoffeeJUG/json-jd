@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Intro to garbage collection on JVM",
+  "image": "https://static.wixstatic.com/media/1cc5be_53dd2f77aba84148a0ce88418ead1bf9~mv2.png",
+  "url": "https://www.javaday.org.ua/intro-to-garbage-collection-on-jvm",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_53dd2f77aba84148a0ce88418ead1bf9~mv2.png",
+      "jobTitle": "Co-founder, CTO @ Plumbr",
+      "name": "Nikita Salnikov-Tarnovski",
+      "url": "https://www.javaday.org.ua/nikita-salnikov-tarnovski"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

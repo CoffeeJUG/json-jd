@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Fooled by your own brain: cognitive biases and brain errors",
+  "image": "https://static.wixstatic.com/media/1cc5be_e761b35a22d7472e9b71fba6f811318c~mv2.jpg",
+  "url": "https://www.javaday.org.ua/fooled-by-your-own-brain-cognitive",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_e761b35a22d7472e9b71fba6f811318c~mv2.jpg",
+      "jobTitle": "Keynote Speaker (Клятий Раціоналіст)",
+      "name": "Artem Albul",
+      "url": "https://www.javaday.org.ua/artem-albul"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

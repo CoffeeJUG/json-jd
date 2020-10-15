@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/summer-holiday",
+  "name": "CoffeeJug: Summer Holiday",
+
+  "startDate": "2019-07-11T18:30",
+  "endDate": "2019-07-11T21:00",
+  "eventAttendanceMode": "offline",
+  "description": "The first speaker at our meetup was Grzegorz Piwowarek from Poland, Lead Software Engineer at Casumo with two talks. The first one: Fantastic Frameworks and How to Avoid Them. In this session, we’ll have a look at the cons of adopting invasive frameworks and how we can minimize the problems they cause.",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2019-07-11",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/p1b805OjdSs/sddefault.jpg", "https://i.ytimg.com/vi/3sp6-stdeEo/sddefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Grzegorz, Piwowarek"}
+  ]
+}
+</script>

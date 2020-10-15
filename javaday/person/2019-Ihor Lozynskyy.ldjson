@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Ihor Lozynskyy",
+  "jobTitle": "Senior Java Developer @ Zoomdata",
+  "image": "https://static.wixstatic.com/media/1cc5be_f91fac6853f2440e901d610ba58e6a3d~mv2.jpg",
+  "knowsAbout": "Likes Java & JVM (for at least 10 years now), hunts for challenging problems, develop Reactive Systems, advocates Reactive Programming. A co-author of the book “Hands-On Reactive Programming in Spring 5”.",
+  "url": "https://www.javaday.org.ua/ihor-lozynskyy",
+  "sameAs" : [ "https://www.linkedin.com/in/igorlozynskyi/", "https://twitter.com/siromaha" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

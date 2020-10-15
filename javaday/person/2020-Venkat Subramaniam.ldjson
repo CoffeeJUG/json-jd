@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Venkat Subramaniam",
+  "jobTitle": "Founder of Agile Developer",
+  "image": "https://static.wixstatic.com/media/1cc5be_4978997d91314914a382860882938eb8~mv2.png",
+  "knowsAbout": "Dr. Venkat Subramaniam is an award-winning author, founder of Agile Developer, Inc., creator of agilelearner.com, and an instructional professor at the University of Houston. He has trained and mentored thousands of software developers in the US, Canada, Europe, and Asia, and is a regularly invited speaker at several international conferences. Venkat helps his clients effectively apply and succeed with sustainable agile practices on their software projects. Venkat is a (co)author of multiple technical books, including the 2007 Jolt Productivity award-winning book Practices of an Agile Developer. You can find a list of his books at http://www.agiledeveloper.com.",
+  "url": "https://www.javaday.org.ua/venkat-subramaniam",
+  "sameAs" : [ "https://www.linkedin.com/in/vsubramaniam/", "https://twitter.com/venkat_s" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

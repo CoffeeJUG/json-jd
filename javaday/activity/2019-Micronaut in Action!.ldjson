@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Micronaut in Action!",
+  "image": "https://static.wixstatic.com/media/1cc5be_43e13eef6e9d4c94a514b3ebe299a36a~mv2.png",
+  "url": "https://www.javaday.org.ua/micronaut-in-action",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_43e13eef6e9d4c94a514b3ebe299a36a~mv2.png",
+      "jobTitle": "Member of the Grails and Micronaut teams @ Object Computing, Inc.",
+      "name": "Iván López",
+      "url": "https://www.javaday.org.ua/ivan-lopez"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

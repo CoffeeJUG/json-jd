@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Anita Przybył",
+  "jobTitle": "Soft skills trainer",
+  "image": "https://static.wixstatic.com/media/1cc5be_1d8e38721bd54037893f6d87a6a9e266~mv2.jpeg",
+  "knowsAbout": "Softs skills trainer, coach, psychologist. For several years used to be responsible for the development of employees at LG Electronics. Currently a freelancer. Specializes in softs skills training, including communication, team management, team building, assertiveness, conflict resolution, emotional intelligence. Speaker at: DevoxxPL, DevConf, 4Developers, JDD, SpreadIT, Greenfield Conference, BoilingFrong, and many IT meetups. She believes that being a qualified specialist is not enough, and highly developed social competences are an indispensable element of success for people and entire organizations.",
+  "url": "https://www.javaday.org.ua/anita-przybyl",
+  "sameAs" : [ "https://www.linkedin.com/in/anita-przybyl/", "https://twitter.com/Anita_Przybyl" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

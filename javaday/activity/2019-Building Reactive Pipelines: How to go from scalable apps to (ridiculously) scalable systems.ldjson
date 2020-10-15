@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Building Reactive Pipelines: How to go from scalable apps to (ridiculously) scalable systems",
+  "image": "https://static.wixstatic.com/media/1cc5be_fe5854e5fb084fd5b1d5f311d79c5a41~mv2.jpg",
+  "url": "https://www.javaday.org.ua/building-reactive-pipelines",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_fe5854e5fb084fd5b1d5f311d79c5a41~mv2.jpg",
+      "jobTitle": "Pivotal Principal Technologist & Spring Developer Advocate",
+      "name": "Mark Heckler",
+      "url": "https://www.javaday.org.ua/mark-heckler"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andrew Petryk",
+  "jobTitle": "Engineering Manager @ Avenga",
+  "image": "https://static.wixstatic.com/media/1cc5be_90c016caf6bb449a824f883f740f02c0~mv2.jpg",
+  "knowsAbout": "Andrew is a Java Engineering Manager @ Avenga. His professional interests include everything Java but also Groovy, Kotlin, and Haskell. PCM @ DevoxxUA and JavaDayLviv.",
+  "url": "https://www.javaday.org.ua/andrew-petryk",
+  "sameAs" : [ "https://www.linkedin.com/in/andrew-petryk/", "https://twitter.com/ipreferespresso" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

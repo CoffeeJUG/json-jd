@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Rafael Benevides",
+  "jobTitle": "Director of Developer Experience @ RedHat",
+  "image": "https://static.wixstatic.com/media/1cc5be_1e2483942652481db996a665fbfb7c6d~mv2.jpg",
+  "knowsAbout": "In his current role, he helps developers worldwide to be more effective in software development, and he also promotes tools and practices that help them to be more productive. He worked in several fields including application architecture and design. Besides that, he is a member of Apache DeltaSpike PMC - a Duke’s Choice Award winner project. And a speaker in conferences like JUDCon, TDC, JavaOne, and Devoxx",
+  "url": "https://www.javaday.org.ua/rafael-benevides",
+  "sameAs" : [ "https://www.linkedin.com/in/rafaelbenevides/", "https://twitter.com/rafabene" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

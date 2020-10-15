@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kees Jan Koster",
+  "jobTitle": "Tech Lead @ Worth Internet Systems",
+  "image": "https://static.wixstatic.com/media/1cc5be_257fd97f6ebd45c5a3eb8f7d82bdd958~mv2.jpg",
+  "knowsAbout": "Kees Jan speaks often and energetically about Java and about distributed systems in general. He likes to challenge the audience to ask questions and offer a rebuttal to his ideas. Kees Jan previously gave presentations at JavaOne, JCrete, Devoxx, TheServerSide Symposium, ScanDevConf, jPrime, ejug, and J-Fall. His JavaOne presentations earned him a JavaOne 2012 Rockstar Award.",
+  "url": "https://www.javaday.org.ua/kees-jan-koster",
+  "sameAs" : [ "https://www.linkedin.com/in/kjkoster/" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

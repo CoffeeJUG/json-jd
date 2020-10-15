@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Oleh Dokuka",
+  "jobTitle": "Software Engineer @ Netifi",
+  "image": "https://static.wixstatic.com/media/1cc5be_ca570be7b8bb438a976f8c5005c12357~mv2.jpg",
+  "knowsAbout": "Oleh Dokuka is a senior software engineer at Netifi, Java Champion, and co-author of the book, “Hands-On Reactive Programming in Spring 5”. He is an active committer to Project Reactor and RSocket, as well as a contributor to Reactive GRPC.",
+  "url": "https://www.javaday.org.ua/oleh-dokuka",
+  "sameAs" : [ "https://www.linkedin.com/in/olegdokuka/", "https://www.facebook.com/oleh.dokuka", "https://twitter.com/OlehDokuka" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

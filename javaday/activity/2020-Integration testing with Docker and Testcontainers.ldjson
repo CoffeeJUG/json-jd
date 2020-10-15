@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Integration testing with Docker and Testcontainers",
+  "image": "https://static.wixstatic.com/media/1cc5be_8cfbe245d363421f8085b25524223142~mv2.png",
+  "url": "https://www.javaday.org.ua/integration-testing-with-docker",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_8cfbe245d363421f8085b25524223142~mv2.png",
+      "jobTitle": "Blockchain Research Group Leader",
+      "name": "Kevin Wittek",
+      "url": "https://www.javaday.org.ua/kevin-wittek"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

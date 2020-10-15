@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Chris Thalinger",
+  "jobTitle": "Software Engineer @ Twitter",
+  "image": "https://static.wixstatic.com/media/1cc5be_9d6931a145ce43c6888b7161990553f3~mv2.jpg",
+  "knowsAbout": "Chris Thalinger is a software engineer working on Java Virtual Machines for over 13 years. His main expertise is in compiler technology with Just-In-Time compilation in particular. Initially being involved with the CACAO and GNU Classpath projects, the focus shifted to OpenJDK as soon as Sun made the JDK open-source. Ever since Chris has worked on the HotSpot JVM at Sun, Oracle and now at Twitter.",
+  "url": "https://www.javaday.org.ua/chris-thalinger",
+  "sameAs" : [ "https://www.linkedin.com/in/christian-thalinger-7a203347/", "https://twitter.com/christhalinger" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

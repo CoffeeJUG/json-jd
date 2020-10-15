@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Caring Is Sharing BOF ",
+  "image": "https://static.wixstatic.com/media/1cc5be_6f25f21da2f74dcbb2a89ea708c01561~mv2.png",
+  "url": "https://www.javaday.org.ua/caring-is-sharing-bof",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_6f25f21da2f74dcbb2a89ea708c01561~mv2.png",
+      "jobTitle": "CEO, Founder ",
+      "name": "Andriy Rymar",
+      "url": "https://www.javaday.org.ua/andriy-rymar"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

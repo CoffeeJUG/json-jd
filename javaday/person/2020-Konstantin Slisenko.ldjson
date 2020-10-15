@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Konstantin Slisenko",
+  "jobTitle": "Solution Architect @ EPAM Systems",
+  "image": "https://static.wixstatic.com/media/1cc5be_2692ab9aa36b461e83015b02bdd1099a~mv2.jpeg",
+  "knowsAbout": "Passionate java developer and tech lead with 8+ years of engineering background. Connecting business, tech, infrastructure, and operation teams. Promoting DevOps culture, documentation and good engineering practices.",
+  "url": "https://www.javaday.org.ua/konstantin-slisenko",
+  "sameAs" : [ "https://www.linkedin.com/in/kslisenko/", "https://twitter.com/kslisenko" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

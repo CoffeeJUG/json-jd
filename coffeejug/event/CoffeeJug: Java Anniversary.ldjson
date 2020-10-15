@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/java-anniversary",
+  "name": "CoffeeJug: Java Anniversary",
+
+  "startDate": "2020-05-28T18:30",
+  "endDate": "2020-05-28T21:00",
+  "eventAttendanceMode": "online",
+  "description": "Please do not ignore ",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2020-05-28",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/eFtFm2WHeHY/maxresdefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Rafael, Benevides"}
+  ]
+}
+</script>

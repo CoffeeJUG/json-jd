@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Hibernate the Ripper",
+  "image": "https://static.wixstatic.com/media/1cc5be_2284a7f1d5e64d679e0d45588fba3357~mv2.jpeg",
+  "url": "https://www.javaday.org.ua/hibernate-the-ripper",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_2284a7f1d5e64d679e0d45588fba3357~mv2.jpeg",
+      "jobTitle": "Java Consultant @ GlobalLogic",
+      "name": "Taras Boychuk",
+      "url": "https://www.javaday.org.ua/taras-boychuk"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

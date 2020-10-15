@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "George Yarish",
+  "jobTitle": "Big Data Engineer @ Grid Dynamics",
+  "image": "https://static.wixstatic.com/media/1cc5be_81c3f65eb79b4f539aede26cd27411a1~mv2.png",
+  "knowsAbout": "George Yarish, Big Data Engineer at Grid Dynamics with more than 7 years of professional expertise. In the last couple of years, he is mostly concentrated on Spark, Scala applications including experience of building real-time streaming applications, lambda architecture, and recommendation systems. George will present the “Build recommender engine based on the ALS algorithm” talk about his recent project.",
+  "url": "https://www.javaday.org.ua/george-yarish",
+  "sameAs" : [ "https://www.linkedin.com/in/normal/" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

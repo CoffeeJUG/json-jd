@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "What is Working Software and how to make it",
+  "image": "https://static.wixstatic.com/media/1cc5be_f03b8507fdad47b6b0403d92d309466e~mv2.jpg",
+  "url": "https://www.javaday.org.ua/what-is-working-software-and-how",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_f03b8507fdad47b6b0403d92d309466e~mv2.jpg",
+      "jobTitle": "Developer @ Codeborne",
+      "name": "Anton Keks",
+      "url": "https://www.javaday.org.ua/anton-keks"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

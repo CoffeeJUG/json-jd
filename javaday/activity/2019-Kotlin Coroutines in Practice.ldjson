@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Kotlin Coroutines in Practice",
+  "image": "https://static.wixstatic.com/media/1cc5be_7b90a779f33448209ac866dbdc1aa7a5~mv2.jpg",
+  "url": "https://www.javaday.org.ua/kotlin-coroutines-in-practice",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_7b90a779f33448209ac866dbdc1aa7a5~mv2.jpg",
+      "jobTitle": "Software Engineer @ PartsTech",
+      "name": "Sergey Zolotov",
+      "url": "https://www.javaday.org.ua/sergey-zolotov"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

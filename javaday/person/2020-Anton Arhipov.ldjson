@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Anton Arhipov",
+  "jobTitle": "Developer Advocate for TeamCity @ JetBrains",
+  "image": "https://static.wixstatic.com/media/1cc5be_7159e049f77c42579d3d206369051e3f~mv2.png",
+  "knowsAbout": "Anton is a Developer Advocate for TeamCity at JetBrains. His professional interests include everything Java, but also other programming languages, middleware and developer tooling. Java Champion since 2014. He’s also a co-organizer of DevClub.eu, a local developers community in Tallinn.",
+  "url": "https://www.javaday.org.ua/anton-arhipov",
+  "sameAs" : [ "https://www.linkedin.com/in/antonarhipov/", "https://www.facebook.com/anton.arhipov.tln", "https://twitter.com/antonarhipov" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "The state of reactive database access",
+  "image": "https://static.wixstatic.com/media/1cc5be_f91fac6853f2440e901d610ba58e6a3d~mv2.jpg",
+  "url": "https://www.javaday.org.ua/the-state-of-reactive-database",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_f91fac6853f2440e901d610ba58e6a3d~mv2.jpg",
+      "jobTitle": "Senior Java Developer @ Zoomdata",
+      "name": "Ihor Lozynskyy",
+      "url": "https://www.javaday.org.ua/ihor-lozynskyy"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

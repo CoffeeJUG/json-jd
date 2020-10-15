@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Spring Patterns",
+  "image": "https://static.wixstatic.com/media/1cc5be_570d807f83e94614a50f2d25ec794c1d~mv2.jpg",
+  "url": "https://www.javaday.org.ua/spring-patterns",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_570d807f83e94614a50f2d25ec794c1d~mv2.jpg",
+      "jobTitle": "Big Data Technical Leader @ NAYA",
+      "name": "Evgeny Borisov",
+      "url": "https://www.javaday.org.ua/evgeny-borisov"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Design Patterns in the Light of Lambda Expressions",
+  "image": "https://static.wixstatic.com/media/1cc5be_4978997d91314914a382860882938eb8~mv2.png",
+  "url": "https://www.javaday.org.ua/design-patterns-in-the-light",
+  "datePublished": "2020-02-1",
+  "wordcount": "27",
+  "articleBody": "Design patterns are commonplace in OO programming. With the introduction of lambda expressions in languages like Java, one has to wonder about their influence on design patterns."
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_4978997d91314914a382860882938eb8~mv2.png",
+      "jobTitle": "Founder of Agile Developer",
+      "name": "Venkat Subramaniam",
+      "url": "https://www.javaday.org.ua/venkat-subramaniam"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

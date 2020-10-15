@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/coffeejug-in-test-we-trust",
+  "name": "CoffeeJug: In Test We Trust",
+
+  "startDate": "2020-02-27T18:30",
+  "endDate": "2020-02-27T21:00",
+  "eventAttendanceMode": "offline",
+  "description": "Get the most from the testing on the local machine (UA)",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2020-02-27",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/ciZ1KzmzqlU/sddefault.jpg", "https://i.ytimg.com/vi/r7hxkzWjDio/sddefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Jiri Holusa"}, {"@context":"https://schema.org","@type":"Person","name":"Iurii Kutelmakh"}
+  ]
+}
+</script>

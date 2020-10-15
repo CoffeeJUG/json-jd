@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Performance tuning Twitter services with Graal and Machine Learning",
+  "image": "https://static.wixstatic.com/media/1cc5be_9d6931a145ce43c6888b7161990553f3~mv2.jpg",
+  "url": "https://www.javaday.org.ua/performance-tuning-twitter-services",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_9d6931a145ce43c6888b7161990553f3~mv2.jpg",
+      "jobTitle": "Software Engineer @ Twitter",
+      "name": "Chris Thalinger",
+      "url": "https://www.javaday.org.ua/chris-thalinger"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

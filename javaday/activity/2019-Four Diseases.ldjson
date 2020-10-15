@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Four Diseases",
+  "image": "https://static.wixstatic.com/media/1cc5be_2289e7d2e27c4c51887ec11422fd268f~mv2.jpg",
+  "url": "https://www.javaday.org.ua/four-diseases",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_2289e7d2e27c4c51887ec11422fd268f~mv2.jpg",
+      "jobTitle": "Remote Freelance Software Gardener",
+      "name": "Piotr Przybył",
+      "url": "https://www.javaday.org.ua/piotr-przybyl"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

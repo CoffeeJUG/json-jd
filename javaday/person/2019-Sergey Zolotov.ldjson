@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sergey Zolotov",
+  "jobTitle": "Software Engineer @ PartsTech",
+  "image": "https://static.wixstatic.com/media/1cc5be_7b90a779f33448209ac866dbdc1aa7a5~mv2.jpg",
+  "knowsAbout": "Sergey is a software engineer at PartsTech. Currently working on search engines and infrastructure. Has more than 10 years of experience. Kotlin enthusiast and early adopter. Active community member",
+  "url": "https://www.javaday.org.ua/sergey-zolotov",
+  "sameAs" : [ "https://www.linkedin.com/in/enleur/", "https://www.facebook.com/enleur", "https://twitter.com/Enleur" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

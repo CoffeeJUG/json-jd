@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Orkhan Gasimov",
+  "jobTitle": "Digital Transformation Architect @ GlobalLogic",
+  "image": "https://static.wixstatic.com/media/1cc5be_cc7c614d38a4460baf59d5dae2416efb~mv2.jpg",
+  "knowsAbout": "Orkhan has over 15 years of software engineering with a variety of technologies, languages, and frameworks. Design solutions and participate in implementation. Run training on topics related to software architecture, Java & JavaScript frameworks and technologies. Author of series of trainings including but not limited to Spring Cloud and Microservices.",
+  "url": "https://www.javaday.org.ua/orkhan-gasimov",
+  "sameAs" : [ "https://www.linkedin.com/in/orkhan-gasimov-ba9b3915/", "https://twitter.com/orkhan_io" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

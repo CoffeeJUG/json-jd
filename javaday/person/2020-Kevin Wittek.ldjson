@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Kevin Wittek",
+  "jobTitle": "Blockchain Research Group Leader",
+  "image": "https://static.wixstatic.com/media/1cc5be_8cfbe245d363421f8085b25524223142~mv2.png",
+  "knowsAbout": "Test containers co-maintainer and Testcontainers-Spock author, in love with FLOSS. Received the Oracle Groundbreaker Ambassador award for his contributions to the Open Source community. Software Craftsman and testing fan. Plays the electric guitar and is a musician in his second life. Found his own company during his university years, developing mobile apps and client-server applications, which introduced him to Grails and the Groovy ecosystem. Fell in love with TDD because of Spock. After many years of working in the industry as an engineer, Kevin is now doing his Ph.D. at the Institute for Internet Security and is leading a research team in the field of blockchain technology.",
+  "url": "https://www.javaday.org.ua/kevin-wittek",
+  "sameAs" : [ "https://www.linkedin.com/in/kevin-wittek-098a84110/", "https://twitter.com/kiview" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

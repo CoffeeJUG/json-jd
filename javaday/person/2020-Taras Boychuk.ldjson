@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Taras Boychuk",
+  "jobTitle": "Java Consultant @ GlobalLogic",
+  "image": "https://static.wixstatic.com/media/1cc5be_2284a7f1d5e64d679e0d45588fba3357~mv2.jpeg",
+  "knowsAbout": "I am a Java Consultant with over 8 years of experience. I’m passionate about education. I work with different people from different organizations and help them to enhance their skills and improve team efficiency. I always think about both the technical and social sides. That’s why during the talks I do my best to not just share interesting technical information, but to inspire people and have a good time together.",
+  "url": "https://www.javaday.org.ua/taras-boychuk",
+  "sameAs" : [ "https://www.linkedin.com/in/boychuktaras/", "https://twitter.com/tarass_boychuk" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

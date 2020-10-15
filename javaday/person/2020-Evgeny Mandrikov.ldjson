@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Evgeny Mandrikov",
+  "jobTitle": "Software Engineer @ SonarSource",
+  "image": "https://static.wixstatic.com/media/1cc5be_78a2ff1f911c4f10afdc7142693bccb8~mv2.jpg",
+  "knowsAbout": "Evgeny is a contributor to various open-source projects, including OpenJDK, and a speaker at international conferences and JUGs. He is also one of the project leads of widely adopted code coverage library for Java - JaCoCo, and the award-winning EclEmma project at the Eclipse Foundation that integrates JaCoCo into Eclipse. In his day job at SonarSource Evgeny develops SonarQube’s static source code analysis for languages such as Java, C/C++, C#, JavaScript.",
+  "url": "https://www.javaday.org.ua/evgeny-mandrikov",
+  "sameAs" : [ "https://www.linkedin.com/in/mandrikov/", "https://twitter.com/_godin_" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

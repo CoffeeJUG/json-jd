@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Spring Cloud Function - Going Serverless",
+  "image": "https://static.wixstatic.com/media/1cc5be_cc7c614d38a4460baf59d5dae2416efb~mv2.jpg",
+  "url": "https://www.javaday.org.ua/spring-cloud-function-going",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_cc7c614d38a4460baf59d5dae2416efb~mv2.jpg",
+      "jobTitle": "Digital Transformation Architect @ GlobalLogic",
+      "name": "Orkhan Gasimov",
+      "url": "https://www.javaday.org.ua/orkhan-gasimov"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

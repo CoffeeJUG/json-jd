@@ -1,0 +1,278 @@
+#!/bin/bash
+joinStrings() { local a=("${@:3}"); printf "%s" "$2${a[@]/#/$1}"; }
+
+person() {
+  id=0
+  while IFS= read -r line
+  do
+    echo "URL: $line";
+
+    tmp="tmp/$1/person-$3-${id}.html"
+
+    if [ ! -f "${tmp}" ]; then
+      echo "File '${tmp}' not found!"
+      curl -o "${tmp}" $line;
+    fi
+
+    name=`xmllint --html --xpath "string(//h2/span/text())" "${tmp}" 2> /dev/null`
+    jobTitle=`xmllint --html --xpath "string(//h5/span/text())" "${tmp}" 2> /dev/null`
+    knowsAbout=`xmllint --html --xpath "string(//span/span/span/text())" "${tmp}" 2> /dev/null`
+    img=`xmllint --html --xpath "string(//img/@src)" "${tmp}" 2> /dev/null`
+
+    echo "Name: ${name}";
+
+    sameAs=()
+    wwCount=`xmllint --html --xpath "count((//div/div/ul)[1]/li/a/@href)" "${tmp}" 2> /dev/null`
+    echo "Count links in sameAs: ${wwCount}";
+    for ((i=1; i<=wwCount; i++)); do
+      wwExtracted=`xmllint --html --xpath "string(((//div/div/ul)[1]/li/a/@href)[${i}])" "${tmp}" 2> /dev/null`
+      echo "${wwExtracted}";
+      sameAs=(${sameAs[@]} ${wwExtracted})
+    done 
+
+    result=`joinStrings '", "' ${sameAs[*]}`
+
+    cat <<EOT > "$1/person/$3-${name}.ldjson"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "${name}",
+  "jobTitle": "${jobTitle}",
+  "image": "${img%/v1/fill*}",
+  "knowsAbout": "${knowsAbout}",
+  "url": "${line}",
+  "sameAs" : [ "${result}" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv $3",
+      "url": "https://www.javaday.org.ua/history-$3",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "$4",
+      "endDate": "$5"
+    }
+  ]
+
+}
+</script>
+EOT
+
+    id=$((id+1))
+  done < "$1/$2";
+}
+
+
+
+activity() {
+  id=0
+  while IFS= read -r line
+  do
+    echo "URL: $line";
+
+    tmp="tmp/$1/activity-$3-${id}.html"
+
+    if [ ! -f "${tmp}" ]; then
+      echo "File '${tmp}' not found!"
+      curl -o "${tmp}" $line;
+    fi
+
+    title=`xmllint --html --xpath "string(//h2/span/text())" "${tmp}" 2> /dev/null`
+    name=`xmllint --html --xpath "string(//h2/a/span/span/text())" "${tmp}" 2> /dev/null`
+    link=`xmllint --html --xpath "string(//h2/a/@href)" "${tmp}" 2> /dev/null`
+    jobTitle=`xmllint --html --xpath "string(//h5/span/text())" "${tmp}" 2> /dev/null`
+    articleBody=`xmllint --html --xpath "string(//p/span/span/text())" "${tmp}" 2> /dev/null`
+    wordcount=`wc -w <<< "${articleBody}"  | sed -e 's/^[[:space:]]*//'`
+    img=`xmllint --html --xpath "string(//img/@src)" "${tmp}" 2> /dev/null`
+    
+    echo "Title: ${title}";
+
+
+    cat <<EOT > "$1/activity/$3-${title}.ldjson"
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "${title}",
+  "image": "${img%/v1/fill*}",
+  "url": "${line}",
+  "datePublished": "$3-02-1",
+  "wordcount": "${wordcount}",
+  "articleBody": "${articleBody}"
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "${img%/v1/fill*}",
+      "jobTitle": "${jobTitle}",
+      "name": "${name}",
+      "url": "${link}"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>
+EOT
+
+  id=$((id+1))
+  done < "$1/$2";
+}
+
+event() {
+  id=0
+  while IFS= read -r line
+  do
+    echo "URL: $line";
+
+    tmp="tmp/$1/event-${id}.html"
+
+    if [ ! -f "${tmp}" ]; then
+      echo "File '${tmp}' not found!"
+      curl -o "${tmp}" $line;
+    fi
+
+    title=`xmllint --html --xpath "string(//div/div/h2/span/a/text())" "${tmp}" 2> /dev/null`
+    if [[ "${title}" == "" ]]; then
+      title=`xmllint --html --xpath "string((//h2/span)/text())" "${tmp}" 2> /dev/null`
+    fi
+
+    jobTitle=`xmllint --html --xpath "string(//h5/span/text())" "${tmp}" 2> /dev/null`
+
+    articleBody=`xmllint --html --xpath "string(//div/p/span/text())" "${tmp}" 2> /dev/null`
+    wordcount=`wc -w <<< "${articleBody}"  | sed -e 's/^[[:space:]]*//'`
+    
+    echo "Title: ${title}";
+
+    imagesList=()
+    imagesCount=`xmllint --html --xpath "count(//picture/img)" "${tmp}" 2> /dev/null`
+    echo "Count links of images: ${imagesCount}";
+    for ((i=1; i<=imagesCount; i++)); do
+      wwExtracted=`xmllint --html --xpath "string((//picture/img)[${i}]/@src)" "${tmp}" 2> /dev/null`
+      imagesList=(${imagesList[@]} ${wwExtracted})
+    done 
+    images=`joinStrings '", "' ${imagesList[*]}`
+
+
+    performerList=()
+    performersCount=`xmllint --html --xpath "count(//div/div/h5/span)" "${tmp}" 2> /dev/null`
+    echo "Count of performer: ${performersCount}";
+    for ((i=1; i<=performersCount; i++)); do
+      wwExtracted=`xmllint --html --xpath "string((//div/div/h5/span)[${i}])" "${tmp}" 2> /dev/null`
+      if [[ "${wwExtracted}" == "Abstract"  || "${wwExtracted}" == "tract" ]]; then
+        continue;
+      fi
+      wwExtracted="${wwExtracted:3}";
+      element='{"@context":"https://schema.org","@type":"Person","name":"'${wwExtracted}'"}'
+
+      performerList=(${performerList[@]} ${element})
+    done 
+    performers=`joinStrings ", " ${performerList[*]}`
+
+
+    photos=`xmllint --html --xpath "string(//div/div/h2/text())" "${tmp}" 2> /dev/null`
+
+    eventAttendanceMode="online"
+    if [[ "${photos}" == "Photos" ]]; then
+      eventAttendanceMode="offline"
+    fi
+
+    dateEvent=`xmllint --html --xpath "string((//div/div/h6)[1]/text())" "${tmp}" 2> /dev/null`
+    day=`echo ${dateEvent:0:2} | sed 's/ *$//g'`
+
+    year=`xmllint --html --xpath "string((//div/div/h6)[2]/text())" "${tmp}" 2> /dev/null`
+    if [[ "${year}" == "" ]]; then
+      year=`xmllint --html --xpath "string((//div/h6/span/a)/text())" "${tmp}" 2> /dev/null`
+      if [[ "${year}" == "" ]]; then
+        year=`xmllint --html --xpath "string((//div/div/h6)/text())" "${tmp}" 2> /dev/null`
+      fi
+    fi
+
+    monthNane=`echo ${dateEvent:2} |  sed 's/[^A-Za-z]*//g'`
+    if [[ "${dateEvent}" =~ "23d " ]]; then
+      monthNane=`echo ${dateEvent:3} |  sed 's/[^A-Za-z]*//g'`
+    fi
+    month=`date -j -f "%d %B %Y" "${day} ${monthNane##* } ${year}" +%m`
+
+
+    cat <<EOT > "$1/event/${title}.ldjson"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "${line}",
+  "name": "${title}",
+
+  "startDate": "${year}-${month}-${day}T18:30",
+  "endDate": "${year}-${month}-${day}T21:00",
+  "eventAttendanceMode": "${eventAttendanceMode}",
+  "description": "${articleBody}",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "${year}-${month}-${day}",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "${images}"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    ${performers}
+  ]
+}
+</script>
+EOT
+
+  id=$((id+1))
+  done < "$1/$2";
+}
+
+echo "Start..."
+
+person "javaday" "person-2019.link" "2019" "2019-02-23T09:00" "2019-02-23T19:00"
+activity "javaday" "activity-2019.link" "2019" "2019-02-23T09:00" "2019-02-23T19:00"
+
+person "javaday" "person-2020.link" "2020" "2020-02-14T09:30" "2013-09-14T21:30"
+activity "javaday" "activity-2020.link" "2020" "2020-02-14T09:30" "2013-09-14T21:30"
+
+event "coffeejug" "event.link"
+
+
+zip -r coffeejug.zip coffeejug
+zip -r javaday.zip javaday
+

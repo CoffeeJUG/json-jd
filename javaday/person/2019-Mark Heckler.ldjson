@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mark Heckler",
+  "jobTitle": "Pivotal Principal Technologist & Spring Developer Advocate",
+  "image": "https://static.wixstatic.com/media/1cc5be_fe5854e5fb084fd5b1d5f311d79c5a41~mv2.jpg",
+  "knowsAbout": "Mark Heckler is a Pivotal Principal Technologist & Spring Developer Advocate, conference speaker, published author, & Java Champion focusing upon developing innovative production-ready software at velocity for the Cloud and IoT applications. He has worked with key players in the manufacturing, retail, medical, scientific, telecom, and financial industries and various public sector organizations to develop and deliver critical capabilities on time and on budget. Mark is an open-source contributor and author/curator of a developer-focused blog and an occasionally interesting Twitter account.",
+  "url": "https://www.javaday.org.ua/mark-heckler",
+  "sameAs" : [ "https://www.linkedin.com/in/markheckler/", "https://twitter.com/mkheck" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

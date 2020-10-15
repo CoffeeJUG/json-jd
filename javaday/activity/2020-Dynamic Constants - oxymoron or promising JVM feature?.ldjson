@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Dynamic Constants - oxymoron or promising JVM feature?",
+  "image": "https://static.wixstatic.com/media/1cc5be_78a2ff1f911c4f10afdc7142693bccb8~mv2.jpg",
+  "url": "https://www.javaday.org.ua/dynamic-constants-oxymoron",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_78a2ff1f911c4f10afdc7142693bccb8~mv2.jpg",
+      "jobTitle": "Software Engineer @ SonarSource",
+      "name": "Evgeny Mandrikov",
+      "url": "https://www.javaday.org.ua/evgeny-mandrikov"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

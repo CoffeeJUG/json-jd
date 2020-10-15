@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Andriy Rodionov",
+  "jobTitle": "JUG UA leader, Software Engineer @ Oracle Labs",
+  "image": "https://static.wixstatic.com/media/1cc5be_c70ae7ef99674c0e9d20d4c4bc6a7455~mv2.png",
+  "knowsAbout": "JUG UA leader and Devoxx UA (JavaDay UA) conference organizer. Being very inspired by Kotlin language, he decided to become Kyiv Kotlin group and Kotlin Night Kyiv conference co-organizer. Has a Ph.D. in computer science and works as an Associate professor at National Technical University.",
+  "url": "https://www.javaday.org.ua/andriy-rodionov",
+  "sameAs" : [ "https://www.linkedin.com/in/andriirodionov/", "https://www.facebook.com/andrii.rodionov", "https://twitter.com/AndriiRodionov" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

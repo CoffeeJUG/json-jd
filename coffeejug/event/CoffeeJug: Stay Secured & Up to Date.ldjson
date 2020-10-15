@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/stay-secured-up-todate",
+  "name": "CoffeeJug: Stay Secured & Up to Date",
+
+  "startDate": "2019-08-14T18:30",
+  "endDate": "2019-08-14T21:00",
+  "eventAttendanceMode": "offline",
+  "description": "Stay Secured & Up to Date - the motto of the August meetup. Remote Freelance Software Gardener from Poland Piotr Przybyl and two talks:",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2019-08-14",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/SE2COIwGMIE/maxresdefault.jpg", "https://i.ytimg.com/vi/1gMjPCtJC7M/maxresdefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Piotr, Przybył"}
+  ]
+}
+</script>

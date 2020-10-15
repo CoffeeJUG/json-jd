@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "BOF | Something ends, Something begins",
+  "image": "https://static.wixstatic.com/media/1cc5be_90c016caf6bb449a824f883f740f02c0~mv2.jpg",
+  "url": "https://www.javaday.org.ua/bof-something-ends-something-begins",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_90c016caf6bb449a824f883f740f02c0~mv2.jpg",
+      "jobTitle": "Engineering Manager @ Avenga",
+      "name": "Andrew Petryk",
+      "url": "https://www.javaday.org.ua/andrew-petryk"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

@@ -1,0 +1,176 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.javaday.org.ua/history-2020",
+  "name": "JavaDay Lviv 2020",
+  "startDate": "2020-02-23T09:00",
+  "endDate": "2020-02-23T19:00",
+  "eventAttendanceMode": "offline",
+  "description": "JavaDay Lviv is an annual Java-conference, that always takes place in February, in Lviv, Ukraine. The history of the event has started in 2019. In 2020 it had 3 parallel streams, more than 20 worldwide speakers, and nearby 300 participants.",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str"
+    },
+    "name": "The Metropolitan Andrey Sheptytsky Center"
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2020-02-23",
+    "startTime": "09:00",
+    "endTime": "19:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "foofighters-1.jpg",
+    "foofighters-2.jpg",
+    "foofighters-3.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  },
+  "performer": [
+        {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Alina Yurenko",
+      "url": "https://www.javaday.org.ua/alina-yurenko"
+    },
+    
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Marharyta Nedzelska",
+      "url": "https://www.javaday.org.ua/marharyta-nedzelska"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anton Arhipov",
+      "url": "https://www.javaday.org.ua/anton-arhipov"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Oleh Dokuka",
+      "url": "https://www.javaday.org.ua/oleh-dokuka"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Serge Bishyr",
+      "url": "https://www.javaday.org.ua/serge-bishyr"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ihor Lozynskyy",
+      "url": "https://www.javaday.org.ua/ihor-lozynskyy"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Andrew Petryk",
+      "url": "https://www.javaday.org.ua/andrew-petryk"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Venkat Subramaniam",
+      "url": "https://www.javaday.org.ua/venkat-subramaniam"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Artem Albul",
+      "url": "https://www.javaday.org.ua/artem-albul"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Mikalai Alimenkou",
+      "url": "https://www.javaday.org.ua/Mikalai Alimenkou"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anita Przybyl",
+      "url": "https://www.javaday.org.ua/anita-przybyl"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kevin Wittek",
+      "url": "https://www.javaday.org.ua/kevin-wittek"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Nikita Salnikov Tarnovski",
+      "url": "https://www.javaday.org.ua/nikita-salnikov-tarnovski"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Anton Keks",
+      "url": "https://www.javaday.org.ua/anton-keks"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Konstantin Slisenko",
+      "url": "https://www.javaday.org.ua/konstantin-slisenko"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Iryna Pap",
+      "url": "https://www.javaday.org.ua/iryna-pap"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sebastian Daschner",
+      "url": "https://www.javaday.org.ua/sebastian-daschner"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Evgeny Mandrikov",
+      "url": "https://www.javaday.org.ua/evgeny-mandrikov"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Taras Boychuk",
+      "url": "https://www.javaday.org.ua/taras-boychuk"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Volodymyr Krokhmaliuk",
+      "url": "https://www.javaday.org.ua/volodymyr-krokhmaliuk"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Roksolana Diachuk",
+      "url": "https://www.javaday.org.ua/roksolana-diachuk"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kees Jan Koster",
+      "url": "https://www.javaday.org.ua/kees-jan-koster"
+    }
+  ]
+}
+</script>

@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/coffeejug-back-to-school",
+  "name": "CoffeeJug: Back to School",
+
+  "startDate": "2020-09-24T18:30",
+  "endDate": "2020-09-24T21:00",
+  "eventAttendanceMode": "offline",
+  "description": "Tech serves the business. Not business serves tech, such an IoC. What the main metrics for tech from a business perspective? Obviously answers popping in head: "Great performance, high reliability, scalability, etc". But does it really matters if you cannot get the app, cause it's still in development? NO. The main metric in constantly changing worlds is: "When I can use it to sell for customers, also known as Time to market?". So what is this talk about? As engineers we responsible to select the best technologies that fit the business needs. Needless to say that existing tech solution is complex and becoming more complex for multiple reasons. With apptronic.net/core we found the way to cut the edges and simplify the current approach to develop apps using Kotlin Multiplatform dramatically decreasing the time to market for mobile solutions. Want to know more? Join the talk.",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2020-09-24",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/313WXpj_-rg/sddefault.jpg", "https://i.ytimg.com/vi/QbVYVx0sHXM/maxresdefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Andriy, Makovskyi"}
+  ]
+}
+</script>

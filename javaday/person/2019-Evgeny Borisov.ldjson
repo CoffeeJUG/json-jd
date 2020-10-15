@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Evgeny Borisov",
+  "jobTitle": "Big Data Technical Leader @ NAYA",
+  "image": "https://static.wixstatic.com/media/1cc5be_570d807f83e94614a50f2d25ec794c1d~mv2.jpg",
+  "knowsAbout": "Big Data Technical Leader, Senior Java Consultant, Architect and Mentor Leading, and consulting Spark projects with Java, Scala, and Python. Leading microservices projects with Spring, Spring Boot, Spring Cloud, etc. One of the best speakers of Devoxx, JEEConf, JavaDay, JPoint, Joker",
+  "url": "https://www.javaday.org.ua/evgeny-borisov",
+  "sameAs" : [ "https://www.linkedin.com/in/evborisov/", "https://twitter.com/jekaborisov" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

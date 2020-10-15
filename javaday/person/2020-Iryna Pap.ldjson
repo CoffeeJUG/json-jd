@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Iryna Pap",
+  "jobTitle": "Quality assurance engineer",
+  "image": "https://static.wixstatic.com/media/1cc5be_c47c33d8fea84931a0709340f2d2b65d~mv2.jpg",
+  "knowsAbout": "Iryna Pap is working as Junior Automation QA at Walkme Kyiv. She is passionate about software quality and different ways to achieve it. She has experience in testing for 3 years and trying to share it at such conferences as Devoxx Ukraine 2019. Iryna is a leader of Rockstarnight Dev Club in Kyiv and one of the organizers of JavaDay Odesa.",
+  "url": "https://www.javaday.org.ua/iryna-pap",
+  "sameAs" : [ "https://www.linkedin.com/in/iryna-pap-2159ba58/", "https://www.facebook.com/irenpapusik", "https://twitter.com/IrynaP" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Service Mesh BOF ",
+  "image": "https://static.wixstatic.com/media/1cc5be_e6c69f67856c4424b3808104bc2ff5f2~mv2.jpeg",
+  "url": "https://www.javaday.org.ua/service-mesh-bof",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_e6c69f67856c4424b3808104bc2ff5f2~mv2.jpeg",
+      "jobTitle": "Developer Advocate ",
+      "name": "Nicolas Fränkel",
+      "url": "https://www.javaday.org.ua/nicolas-frankel"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Serge Bishyr ",
+  "jobTitle": "Software engineer @ Lohika",
+  "image": "https://static.wixstatic.com/media/1cc5be_96b7fb7c57274713a08a1ffba7fb7a67~mv2.jpg",
+  "knowsAbout": "Software engineer at Lohika and active open source contributor. Always curious and open-minded. 6+ years of experience building distributed systems in different domains, like a health-care alarming system, networking debugging application, etc. Speaker at JavaDay Lviv, JeeConf, and Voxxed Days Minsk.",
+  "url": "https://www.javaday.org.ua/serge-bishyr",
+  "sameAs" : [ "https://www.linkedin.com/in/sergey-bishyr/", "https://www.facebook.com/sergii.bishyr", "https://twitter.com/bishyrs" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2020",
+      "url": "https://www.javaday.org.ua/history-2020",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2020-02-14T09:30",
+      "endDate": "2013-09-14T21:30"
+    }
+  ]
+
+}
+</script>

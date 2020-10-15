@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Low Latency Data Processing in the Era of Serverless",
+  "image": "https://static.wixstatic.com/media/1cc5be_e93fa91cb46e45f9a1a17dd4de1ef18e~mv2.jpg",
+  "url": "https://www.javaday.org.ua/low-latency-data-processing",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_e93fa91cb46e45f9a1a17dd4de1ef18e~mv2.jpg",
+      "jobTitle": "Cloud Developer @ Hazelcast",
+      "name": "Nazariy Cherkas",
+      "url": "https://www.javaday.org.ua/nazariy-cherkas"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

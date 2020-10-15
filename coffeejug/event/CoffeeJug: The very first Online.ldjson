@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/the-very-first-online",
+  "name": "CoffeeJug: The very first Online",
+
+  "startDate": "2020-04-23T18:30",
+  "endDate": "2020-04-23T21:00",
+  "eventAttendanceMode": "online",
+  "description": "During this session, we will first provide a short history of machine learning and an overview of two basic teaching techniques: supervised and unsupervised learning.",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2020-04-23",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/EdbNYh0H7wg/maxresdefault.jpg", "https://i.ytimg.com/vi/uLSBaVIO8uY/maxresdefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Łukasz, Gebel"}, {"@context":"https://schema.org","@type":"Person","name":"Piotr, Czajka"}
+  ]
+}
+</script>

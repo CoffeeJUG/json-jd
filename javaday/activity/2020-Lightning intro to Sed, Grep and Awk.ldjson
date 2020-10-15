@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Lightning intro to Sed, Grep and Awk",
+  "image": "https://static.wixstatic.com/media/1cc5be_257fd97f6ebd45c5a3eb8f7d82bdd958~mv2.jpg",
+  "url": "https://www.javaday.org.ua/lightning-intro-to-sed-grep-and-awk",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_257fd97f6ebd45c5a3eb8f7d82bdd958~mv2.jpg",
+      "jobTitle": "Tech Lead @ Worth Internet Systems",
+      "name": "Kees Jan Koster",
+      "url": "https://www.javaday.org.ua/kees-jan-koster"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

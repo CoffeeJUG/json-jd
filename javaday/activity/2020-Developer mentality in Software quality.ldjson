@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Developer mentality in Software quality",
+  "image": "https://static.wixstatic.com/media/1cc5be_c47c33d8fea84931a0709340f2d2b65d~mv2.jpg",
+  "url": "https://www.javaday.org.ua/developer-mentality-in-software",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_c47c33d8fea84931a0709340f2d2b65d~mv2.jpg",
+      "jobTitle": "Quality assurance engineer",
+      "name": "Iryna Pap",
+      "url": "https://www.javaday.org.ua/iryna-pap"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

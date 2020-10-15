@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nicolas Frankel",
+  "jobTitle": "Developer Advocate @ Exoscale",
+  "image": "https://static.wixstatic.com/media/1cc5be_e6c69f67856c4424b3808104bc2ff5f2~mv2.jpeg",
+  "knowsAbout": "Nicolas Fränkel is a Developer Advocate with 15+ years of experience consulting for many different customers, in a wide range of contexts (such as telecoms, banking, insurances, large retail, and public sector). Usually working on Java/Java EE and Spring technologies, but with narrower interests like Software Quality, Build Processes, and Rich Internet Applications. Currently working for Exoscale. Also double as a teacher in universities and higher education schools, a trainer and triples as a book author.",
+  "url": "https://www.javaday.org.ua/nicolas-frankel",
+  "sameAs" : [ "https://www.linkedin.com/in/nicolasfrankel/", "https://twitter.com/nicolas_frankel" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

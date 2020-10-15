@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nazariy Cherkas",
+  "jobTitle": "Cloud Developer @ Hazelcast",
+  "image": "https://static.wixstatic.com/media/1cc5be_e93fa91cb46e45f9a1a17dd4de1ef18e~mv2.jpg",
+  "knowsAbout": "Nazarii Cherkas works as a Hazelcast Cloud Developer at Hazelcast – a company that develops the open-source projects Hazelcast IMDG and Hazelcast Jet. Nazarii has many years of experience working at different positions from Java Engineer to Team Lead and Solutions Architect. He was involved in various projects for different industries: from Startups, Telecom, and Healthcare to the critical systems serving the infrastructure for one of world-biggest Airlines. Passioned about the Distributed Systems and Cloud Computing, Nazarii is currently working on managed service for the Hazelcast IMDG.",
+  "url": "https://www.javaday.org.ua/nazariy-cherkas",
+  "sameAs" : [ "https://www.linkedin.com/in/ncherkas/", "https://www.facebook.com/nazariy.cherkas", "https://twitter.com/n_cherkas" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

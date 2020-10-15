@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/unfreeze-the-summer",
+  "name": "CoffeeJug: Unfreeze the Summer",
+
+  "startDate": "2020-08-20T18:30",
+  "endDate": "2020-08-20T21:00",
+  "eventAttendanceMode": "offline",
+  "description": "Real-life examples of the most popular security vulnerabilities in Java web apps",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2020-08-20",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/UAu6GA2U6Ao/maxresdefault.jpg", "https://i.ytimg.com/vi/mlZBmEsoa3M/maxresdefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Yuriy Nakonechnyy"}, {"@context":"https://schema.org","@type":"Person","name":"Mykhailo Voitovych"}
+  ]
+}
+</script>

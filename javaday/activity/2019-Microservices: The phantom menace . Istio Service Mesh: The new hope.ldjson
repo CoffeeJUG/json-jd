@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Microservices: The phantom menace . Istio Service Mesh: The new hope",
+  "image": "https://static.wixstatic.com/media/1cc5be_96b7fb7c57274713a08a1ffba7fb7a67~mv2.jpg",
+  "url": "https://www.javaday.org.ua/microservices-the-phantom-menace",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_96b7fb7c57274713a08a1ffba7fb7a67~mv2.jpg",
+      "jobTitle": "Software engineer @ Lohika",
+      "name": "Serge Bishyr",
+      "url": "https://www.javaday.org.ua/serge-bishyr"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

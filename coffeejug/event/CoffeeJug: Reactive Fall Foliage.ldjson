@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/reactive-fall-foliage",
+  "name": "CoffeeJug: Reactive Fall Foliage",
+
+  "startDate": "2019-11-5T18:30",
+  "endDate": "2019-11-5T21:00",
+  "eventAttendanceMode": "offline",
+  "description": "Reactive for the Impatient (A Gentle Intro)",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2019-11-5",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/z4l1EYrPsBE/maxresdefault.jpg", "https://i.ytimg.com/vi/SL4_IFAtZeY/maxresdefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Mary, Grygleski"}, {"@context":"https://schema.org","@type":"Person","name":"Oleh, Dokuka"}
+  ]
+}
+</script>

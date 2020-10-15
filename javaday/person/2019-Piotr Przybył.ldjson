@@ -1,0 +1,34 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Piotr Przybył",
+  "jobTitle": "Remote Freelance Software Gardener",
+  "image": "https://static.wixstatic.com/media/1cc5be_2289e7d2e27c4c51887ec11422fd268f~mv2.jpg",
+  "knowsAbout": "Notorious engineer at work and after hours, tracing meanders of the art of software engineering. Software Gardener, mostly working in web-oriented Java gardens. Fan of agility, seen mostly as choosing the right tools and approaches. Lead developer, trainer, and conference speaker.",
+  "url": "https://www.javaday.org.ua/piotr-przybyl",
+  "sameAs" : [ "https://www.linkedin.com/in/piotrprzybyl/", "https://twitter.com/piotrprz" ],
+
+  "performerIn": [
+    {
+      "@type": "Event",
+      "name": "JavaDay Lviv 2019",
+      "url": "https://www.javaday.org.ua/history-2019",
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lviv",
+          "addressRegion": "Lviv",
+          "postalCode": "79000",
+          "streetAddress": "29A Stryiska str"
+        },
+        "name": "The Metropolitan Andrey Sheptytsky Center"
+      },
+      "startDate": "2019-02-23T09:00",
+      "endDate": "2019-02-23T19:00"
+    }
+  ]
+
+}
+</script>

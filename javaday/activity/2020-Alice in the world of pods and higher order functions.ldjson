@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Alice in the world of pods and higher order functions",
+  "image": "https://static.wixstatic.com/media/1cc5be_41efdd94e8e54ad8b7b73376636291b4~mv2.jpg",
+  "url": "https://www.javaday.org.ua/alice-in-the-world-of-pods-and",
+  "datePublished": "2020-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_41efdd94e8e54ad8b7b73376636291b4~mv2.jpg",
+      "jobTitle": "Big Data Developer @ Captify",
+      "name": "Roksolana Diachuk",
+      "url": "https://www.javaday.org.ua/roksolana-diachuk"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>

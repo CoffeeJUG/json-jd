@@ -1,0 +1,60 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "JavaDay Lviv",
+  "email": "info(at)javaday.com.ua",
+  "telephone": "+380686698096",
+  "url": "javaday.org.ua",
+
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lviv, Ukraine",
+    "postalCode": "79000",
+    "streetAddress": "3, Novakivskoho street"
+  },
+  "member": [
+    {
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_0539f3d0c5ac46c0bcd551cc7ee0a717~mv2.jpg/v1/fill/w_167,h_169,al_c,q_80,usm_0.66_1.00_0.01/39149882_10157035094298676_1353248735026.webp",
+      "name": "Ihor Banadyga",
+      "email": "banadiga(at)gmail.com",
+      "memberOf": "JavaDay Lviv",
+      "url": "https://www.javaday.org.ua/team#name",
+      "jobTitle": "organizer",
+      "sameAs" : [ "https://www.linkedin.com/in/ihorbanadiga/", "https://www.facebook.com/banadiga", "https://twitter.com/banadiga" ]
+    },
+    {
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_4d4bfd5687844b19a64e3effed6aa6a3~mv2.jpg/v1/fill/w_169,h_169,al_c,q_80,usm_0.66_1.00_0.01/44088625_2149111962009851_35593999268928.webp",
+      "name": "Andriy Rymar",
+      "email": "andriyrav(at)gmail.com",
+      "memberOf": "JavaDay Lviv",
+      "url": "https://www.javaday.org.ua/team#name",
+      "jobTitle": "organizer",
+      "sameAs" : [ "https://www.linkedin.com/in/andriy-rymar/", "https://www.facebook.com/JandriyR", "https://twitter.com/AndriyRymar" ]
+    }
+  ],
+  "contactPoint" : [
+    { "@type" : "ContactPoint",
+      "telephone" : "+380686698096",
+      "contactType" : "customer service",
+      "contactOption" : "TollFree",
+      "email": "info(at)javaday.com.ua",
+      "name": "JavaDay Lviv"
+    },
+    {
+      "@type" : "ContactPoint",
+      "contactType" : "organizator",
+      "email": "banadiga(at)gmail.com",
+      "name": "Ihor Banadyga"
+    },
+    {
+      "@type" : "ContactPoint",
+      "contactType" : "organizator",
+      "email": "andriyrav(at)gmail.com",
+      "name": "nAndriy Rymar"
+    }
+  ]
+}
+</script>

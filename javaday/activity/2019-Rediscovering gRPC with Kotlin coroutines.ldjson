@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{ 
+  "@context": "https://schema.org", 
+  "@type": "Article",
+  "name": "Rediscovering gRPC with Kotlin coroutines",
+  "image": "https://static.wixstatic.com/media/1cc5be_c63e10bde67045d3a2b54c5b22d8fefb~mv2.jpg",
+  "url": "https://www.javaday.org.ua/rediscovering-grpc-with-kotlin",
+  "datePublished": "2019-02-1",
+  "wordcount": "0",
+  "articleBody": ""
+
+  "author": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "image": "https://static.wixstatic.com/media/1cc5be_c63e10bde67045d3a2b54c5b22d8fefb~mv2.jpg",
+      "jobTitle": "Software Engineer @ Wix",
+      "name": "Marharyta Nedzelska",
+      "url": "https://www.javaday.org.ua/marharyta-nedzelska"
+    }
+  ],
+
+  "publisher": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JavaDay Lviv",
+    "url": "https:://www.javaday.org.ua/"
+  }
+}
+</script>
