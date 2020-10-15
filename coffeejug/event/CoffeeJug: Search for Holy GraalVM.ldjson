@@ -1,0 +1,43 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "url": "https://www.coffeejug.org/coffeejug-search-for-holy-graalvm",
+  "name": "CoffeeJug: Search for Holy GraalVM",
+
+  "startDate": "2020-01-22T18:30",
+  "endDate": "2020-01-22T21:00",
+  "eventAttendanceMode": "offline",
+  "description": "In this talk, we'll briefly go through key concepts of GraalVM and then focus on the native image overview. We'll talk about the best use cases for GraalVM native images and how to make sure it's the right solution for your project, where to get started, what are some helpful configuration options, and how to build native images within popular Java microservice frameworks for real-world projects.",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Lviv",
+      "addressRegion": "Lviv",
+      "postalCode": "79000",
+      "streetAddress": "29A Stryiska str" // TODO
+    },
+    "name": "JavaDay Lviv 2019" // TODO
+  },
+  "eventSchedule": {
+    "@type": "Schedule",
+    "startDate": "2020-01-22",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "scheduleTimezone": "Europe/Kyiv"
+  },
+  "image": [
+    "https://i.ytimg.com/vi/OAc1D4xrwIA/sddefault.jpg", "https://i.ytimg.com/vi/3qgVUnap4-E/sddefault.jpg"
+  ],
+  "organizer": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "CoffeeJUG",
+    "url": "https:://www.coffeejug.org.ua/"
+  },
+  "performer": [
+    {"@context":"https://schema.org","@type":"Person","name":"Alina, Yurenko"}, {"@context":"https://schema.org","@type":"Person","name":"David, Leopoldseder"}
+  ]
+}
+</script>
